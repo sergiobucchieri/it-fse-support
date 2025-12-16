@@ -4184,15 +4184,14 @@ _Tabella 39: Campi Response valorizzati in caso di warning_
 
 ``` json
 { 
-  "traceID": "79e2637736ad9bae", 
-  "spanID": "79e2637736ad9bae", 
-  "workflowInstanceId": "2.16.840.1.113883.2.9.2.120.4.4.46a41df0ab0514f11c0811056832c3225e06c8e11824f27c7e5517ca5cfc57fe.ac05831184^^^^urn:ihe:iti:xdw:2013:workflowInstanceId", 
-  "responseStatus": 400, 
-  "type": "/msg/syntax", 
-  "title": "Errore di sintassi.", 
-  "detail": "Error while executing validation on xsd schema", 
-  "instance": "/validation/error", 
-  "status": "400" 
+  "traceID": "20ec517920fd7f656a29381551f1f021",
+  "spanID": "f80596f827cf991f",
+  "type": "/msg/syntax",
+  "title": "Errore di sintassi.",
+  "detail": "Error while executing validation on xsd schema",
+  "status": 400,
+  "instance": "/validation/error",
+  "workflowInstanceId": "2.16.840.1.113883.2.9.2.120.4.4.b0f3ffcf25ce2aafc7dc901e2febc51f43837f4ca0fe3b6d1b02194e9047b6db.99b2bee0c9^^^^urn:ihe:iti:xdw:2013:workflowInstanceId"
 }
 ```
 
@@ -4204,8 +4203,7 @@ _Tabella 39: Campi Response valorizzati in caso di warning_
   "traceID": "b20d5f0f59d117ca",
   "spanID": "b20d5f0f59d117ca",
   "workflowInstanceId": "2.16.840.1.113883.2.9.2.10908.4.4.2.0d0002200a27e9ead4de0891c19736a630eab68fb09f7851561bbfeed7389948.9562421609^^^^urn:ihe:iti:xdw:2013:workflowInstanceId",
-  "warning": "[W005 | Sezione Esame Eseguito: l'entry/act/code può essere valorizzato secondo i sistemi di codifica\n\t\t\tLOINC @codeSystem='2.16.840.1.113883.6.1'\n\t\t\tICD-9-CM @codeSystem='2.16.840.1.113883.6.103']",
-  "responseStatus": 201
+  "warning": "[W005 | Sezione Esame Eseguito: l'entry/act/code può essere valorizzato secondo i sistemi di codifica\n\t\t\tLOINC @codeSystem='2.16.840.1.113883.6.1'\n\t\t\tICD-9-CM @codeSystem='2.16.840.1.113883.6.103']"
 }
 ```
  
@@ -4734,8 +4732,7 @@ _Tabella 44: Campi Response valorizzati in caso di warning_
   "traceID": "b20d5f0f59d117ca",
   "spanID": "b20d5f0f59d117ca",
   "workflowInstanceId": "2.16.840.1.113883.2.9.2.10908.4.4.2.0d0002200a27e9ead4de0891c19736a630eab68fb09f7851561bbfeed7389948.9562421609^^^^urn:ihe:iti:xdw:2013:workflowInstanceId",
-  "warning": "[W005 | Sezione Esame Eseguito: l'entry/act/code può essere valorizzato secondo i sistemi di codifica\n\t\t\tLOINC @codeSystem='2.16.840.1.113883.6.1'\n\t\t\tICD-9-CM @codeSystem='2.16.840.1.113883.6.103']",
-  "responseStatus": 201
+  "warning": "[W005 | Sezione Esame Eseguito: l'entry/act/code può essere valorizzato secondo i sistemi di codifica\n\t\t\tLOINC @codeSystem='2.16.840.1.113883.6.1'\n\t\t\tICD-9-CM @codeSystem='2.16.840.1.113883.6.103']"
 }
 ```
 
@@ -4745,8 +4742,7 @@ _Tabella 44: Campi Response valorizzati in caso di warning_
 { 
   "traceID": "79e2637736ad9bae", 
   "spanID": "79e2637736ad9bae", 
-  "workflowInstanceId": "2.16.840.1.113883.2.9.2.120.4.4.46a41df0ab0514f11c0811056832c3225e06c8e11824f27c7e5517ca5cfc57fe.ac05831184^^^^urn:ihe:iti:xdw:2013:workflowInstanceId", 
-  "responseStatus": 400, 
+  "workflowInstanceId": "2.16.840.1.113883.2.9.2.120.4.4.46a41df0ab0514f11c0811056832c3225e06c8e11824f27c7e5517ca5cfc57fe.ac05831184^^^^urn:ihe:iti:xdw:2013:workflowInstanceId",
   "type": "/msg/syntax", 
   "title": "Errore di sintassi.", 
   "detail": "Error while executing validation on xsd schema", 

@@ -6586,9 +6586,14 @@ Per maggiori informazioni sulla valorizzazione di tipo XON si può far riferimen
    <td>
    Il valore del custom claim <code>locality</code> deve essere unico e coerente per tutte le operazioni supportate dal Gateway 
   (<strong>CREATE, REPLACE, UPDATE, DELETE</strong>) e deve essere conforme al formato <strong>XON</strong> come mostrato dall'esempio che segue:
-   <ul>
-   <li>LABORATORIO DI PROVA^^^^^&2.16.840.1.113883.2.9.4.1.3&ISO^^^^111101123456 (tipo XON), che indica la struttura "LABORATORIO DI PROVA” della Regione “111”, ASL “101” e codice STS.11(6) “123456".</li>
-   </ul>
+  <ul> 
+      <li> <strong>LABORATORIO DI PROVA^^^^^&2.16.840.1.113883.2.9.4.1.3&ISO^^^^111101123456</strong> (tipo XON) – Questo valore appartiene al catalogo **STS.11/STS.11(6)** e rappresenta la struttura "LABORATORIO DI PROVA" della Regione “111”, ASL “101” e codice STS “123456”. 
+      </li> 
+      <li> <strong>OSPEDALI RIUNITI PINEROLO^^^^^&2.16.840.1.113883.2.9.4.1.2&ISO^^^^010030</strong> (tipo XON) – Questo valore appartiene al catalogo **HSP/HSP.11bis** e rappresenta l’ospedale “OSPEDALI RIUNITI PINEROLO”. 
+      </li> 
+      <li> <em>Altri valori possono appartenere ad ulteriori cataloghi, ciascuno con il proprio OID e codice specifico, purché rispettino il formato XON. Per maggiori dettali è possibile consultare l'Affinity domain</em> 
+      </li> 
+  </ul>
 </br>
    </td>
   </tr>

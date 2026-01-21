@@ -5191,7 +5191,6 @@ Di seguito viene mostrato un esempio di risposta ad una cancellazione per un iss
 {
   "traceID": "96f988e9a3f6d449",
   "spanID": "53b7886d2a3acb85",
-  "responseStatus": 200,
   "transactionData": [
     {
       "eventType": "INI_RIFERIMENTO_SOAP",
@@ -5246,7 +5245,6 @@ Di seguito viene mostrato un esempio di risposta ad una sostituzione per un issu
 {
   "traceID": "ffaac0bad18ab232",
   "spanID": "b63453ce857318da",
-  "responseStatus": 200,
   "transactionData": [
     {
       "eventType": "VALIDATION",
@@ -5303,7 +5301,6 @@ Di seguito viene mostrato un esempio di risposta ad una sostituzione per un issu
 {
   "traceID": "e43e769a2a815203",
   "spanID": "e65b754508379297",
-  "responseStatus": 200,
   "transactionData": [
     {
       "eventType": "INI_GET_METADATI_SOAP",

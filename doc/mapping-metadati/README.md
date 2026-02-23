@@ -40,6 +40,16 @@ Questo documento fornisce una mappatura dei metadati tra i sistemi Gateway ed IN
         <td><code>urn:oasis:names:tc:xacml:1.0:subject:subject-id</code></td>
     </tr>
     <tr>
+        <td></td>
+        <td colspan="3">
+            <em>
+                Per le operazioni di consultazione (ITI-18), che per il Gateway sono considerate operazioni indirette, 
+                l’attributo <code>urn:oasis:names:tc:xacml:1.0:subject:subject-id</code> viene valorizzato esclusivamente 
+                se nel JWT in input è configurato il parametro <code>use_subject_as_author=true</code>.
+            </em>
+        </td>
+    </tr>
+    <tr>
         <td>:key:</td>
         <td><code>subject_organization_id</code></td>
         <td>120</td>
